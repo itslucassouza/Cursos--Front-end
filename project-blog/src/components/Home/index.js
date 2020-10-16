@@ -9,9 +9,10 @@ class Home extends Component{
     };
 
     componentDidMount(){
-        firebase.app.ref('posts').once('value', (snapshot) =>{
+        firebase.app.ref('posts').once('value', (snapshot) => {
             let state = this.state;
             state.post = [];
+
             snapshot.forEach((childItem)=> {
                 state.posts.push({
                     key: childItem.key,
@@ -21,7 +22,9 @@ class Home extends Component{
                     autor: childItem.val().autor
                 })
             });
-            this.state(state);
+
+            state.posts.reverse();
+            this.setState(state);
         })
     }
 
@@ -29,6 +32,7 @@ class Home extends Component{
         return(
             <section id="post">
                 {this.state.posts.map((post)=> {
+                    return(
                     <article key={post.key}>
                         <header>
                             <div className="title">
@@ -42,6 +46,7 @@ class Home extends Component{
                             <p>{post.descrição}</p>
                         </footer>
                     </article>
+                    );
                 })}
 
             </section>
