@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+</style>
+<body>
+    <form action="#" method="post" class="formLogin">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <label>Email</label>
+            <input type="text" required>
+            <br>
+            <label>numero</label>
+            <input type="number" min="0" max="100">
+            <br>
+            <label>data de nascimento</label>
+            <input type="date">
+            <br>
+            <p>Sexo</p>
+            <input type="radio" name="sexo" value="M">
+            <label>Masculino</label>
+            <input type="radio" name="sexo" value="F">
+            <label>Feminino</label>
+            <br>
+
+            <label>Estado</label>
+            <select name="estado">
+                <option value="SP">São Paulo</option>
+                <option value="SP">Rio de Janeiro</option>
+                <option value="SP">Minas Gerais</option>
+            <br>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Área de interesse</legend>
+            <label>
+                <input type="checkbox" name="html" value="html">HTML
+            </label>
+            <label>
+                <input type="checkbox" name="html" value="css">CSS
+            </label>
+            <label>
+                <input type="checkbox" name="html" value="javascript">JavaScript
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Mensagem</legend>
+            <textarea name="contrato"  readonly cols="30" rows="10">contrato tananana
+            </textarea>
+
+            <label>
+                <input type="checkbox">Li e aceito os termos
+            </label>
+            <input type="range">
+            <input type="time">
+            <input type="color">
+
+            <select multiple size="2">
+                <option>opção 1</option>
+                <option>opção 1</option>
+
+                <option>opção 1</option>
+
+                
+            </select>
+
+  
+        </fieldset>
+
+    </form>
+</body>
+</html>

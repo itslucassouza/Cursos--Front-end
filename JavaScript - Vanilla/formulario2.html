@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .formLogin{
+        width: 250px;
+        margin: 50px auto 0;
+    }
+
+    .formLogin label{
+        display: block;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    .formLogin fieldset{
+        background: #CCC;
+    }
+
+    #user, #senha, #btn{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+
+
+    #user{
+        margin-bottom: 15px;
+    }
+</style>
+<body>
+    <h1> Exemplo de formulario! </h1>
+    <form action="#" target="post" class="formLogin">
+        <fieldset>
+            <legend>Login</legend>
+            <label for="user">Digite seu usuario</label>
+            <input type="text" id="user" name="">
+
+            <label for="senha">Digite sua Senha</label>
+            <input type="password" id="senha" name="">
+
+            <input type="submit" value="logar" id="btn">
+        </fieldset>
+    </form>
+    
+</body>
+</html>
