@@ -6,6 +6,26 @@
     <title>Especificidade CSS</title>
     <style>
         /* https://specificity.keegan.st/ */
+        /* 
+        1. inline é sempre o mais forte
+        2. ID
+        3. classe, pseudoclasse, atributo
+        4. elemento, pseudoElemento
+        */
+
+         body {
+             font-size: 40px;
+         }
+
+         div {
+             background-color: #00B; color: #FFF;
+         }
+
+         div [wm-cor] {
+             background-color: darkorange;
+         }
+
+         
     </style>
 </head>
 
