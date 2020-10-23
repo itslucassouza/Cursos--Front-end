@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Modificando HTML #01</title>
+    <link rel='stylesheet' href='css/estilo.css'>
+    <script src='js/jquery.js'></script>
+</head>
+
+<body class='conteudo exercicio'>
+    <h1>Modificando HTML #01</h1>
+    <div id='conteudo1'></div>
+    <div id='conteudo2'></div>
+    <div id='conteudo3'></div>
+
+    <script>
+        //conteudo 1
+
+        //apend adiciona um conteudo no HTML
+        $('#conteudo1').append('<p>1</p>')
+
+        const elementos = [
+            $('<li></li>').append('Arroz'),
+            $('<li>').append('feijão'),
+            $('<li>').append('Carne')
+        ]
+
+        const lista = $('<ul><li>Sorvete</li></ul>').prepend(elementos)
+
+        $('#conteudo2').append(lista)
+
+        //conteudo 3
+
+        $('#conteudo3').append('<h1>1</h1>', '<h1>2</h1>')
+                .prepend('<h1>0</h1>')
+        
+        //html() SUBSTITUI o conteudo
+        $('#conteudo3').html('<h1>123</h1>')
+
+        //text é uma forma de manipular e adicionar elementos, só que coloca diretamente o text(não interpreta a tag)
+        $('#conteudo3').text('<h1>123</h1>')
+
+        //Alterando dados
+        $('div').html('<strong>Todos! Veja todo o codigo<strong>')
+    </script>
+</body>

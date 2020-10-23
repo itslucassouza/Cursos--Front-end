@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Altura e Largura</title>
+    <style>
+        html {
+            width: 100%;
+        }
+        body {
+            font-size: 40px;
+            width: 100%;
+            background-color: coral;
+        }
+
+        div {
+            background-color: seagreen;
+        }
+
+        span {
+            background-color: dodgerblue;
+        }
+
+        span, div {
+            width: 50%;
+            height: 100%;
+            display: inline-block;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <!-- no display inline-block a quebra de linha faz diferença de como os elementos sao aninhados -->
+    <div>Título</div><span>Subtítulo</span>
+</body>
+
+</html>
