@@ -20,6 +20,20 @@
     <input type="text" placeholder="Cor de Background">
 
     <script>
-        // ...
+            function mostrarPosicaoDoMouse(e) {
+                $('#posicao').html(`x: ${e.clientX}`).append(`y: ${e.clientY}`)
+            }
+            //adicioanndo functio com on
+            $('body').on('mousemove', mostrarPosicaoDoMouse)
+
+            //removendo function com off
+            $('#posicao').mouseover(e => {
+                $('body').off('mousemove', mostrarPosicaoDoMouse)
+            })
+
+            //voltando a fucntion com o mouseleave
+            $('#posicao').mouseleave(e => {
+                $('body').on('mouseover', mostrarPosicaoDoMouse)
+            })
     </script>
 </body>
