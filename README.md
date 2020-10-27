@@ -43,5 +43,6 @@ Bootstrap é um framework para desenvolvimento de componentes de interface e fro
 navegações, tipografia, espaços, título e bradcrumb, cores, flexbox, imagens, float, sistema de grid, botões, alertas, paginação, tooltip, slider, accordion, formulário.
 
 #React: 
+
 React é uma biblioteca JavaScript com foco em criar interfaces de usuário em páginas web. É mantida pelo Facebook, Instagram e outras empresas. Utilizada nos sites da 
 Netflix, Walmart, entre outros. Estudaremos componentes, componentes com parâmetros, múltiplos componentes, componentes de classe, componentes pai e filho.
