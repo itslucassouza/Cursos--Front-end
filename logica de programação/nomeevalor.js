@@ -14,7 +14,6 @@ const cliente = {
     endereço: {
         logradouro: 'Rua muito legal',
         numero: 123,
-
     }
 }
 
