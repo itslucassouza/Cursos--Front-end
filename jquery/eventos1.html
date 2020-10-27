@@ -23,6 +23,7 @@
             function mostrarPosicaoDoMouse(e) {
                 $('#posicao').html(`x: ${e.clientX}`).append(`y: ${e.clientY}`)
             }
+
             //adicioanndo functio com on
             $('body').on('mousemove', mostrarPosicaoDoMouse)
 
@@ -34,6 +35,24 @@
             //voltando a fucntion com o mouseleave
             $('#posicao').mouseleave(e => {
                 $('body').on('mouseover', mostrarPosicaoDoMouse)
+            })
+
+            //monitorando click
+            let cliques = 0 
+            $('body').click(e => {
+                $('#cliques').html(`cliques: ${++cliques}`)
+            })
+
+            //eventos de teclado 
+            const backgroudOriginal = $('body').css('background-color')
+            
+            $('input').keyup(function (e) {
+                const valor = $(this).val()
+                if(valor.match(/#[\da-fA-F]{3,6}/)){
+                    $('body').css('background-color', valor)
+                }else {
+                    $('body').css('background-color', backgroudOriginal)
+                }
             })
     </script>
 </body>
