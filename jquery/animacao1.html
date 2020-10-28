@@ -23,6 +23,24 @@
     <div id='animar'>Animar!</div>
 
     <script>        
-        // ...
+        $('button').click(e =>{
+            const t = 450
+            //hide oculta a função chamada que no caso é o evento do click do botao  
+            // show é uma função que faz o conteudo aparecer logo em seguida
+            // $('#animar').hide(t).show(t)
+
+            //toggle alterna entre hide e show 
+            // $('#animar').toggle(t).toggle(t)
+
+
+            // //fadeIn = Aparecimento gradual 
+            // //fadeOut = Desaparecer
+            // //pode se usar fadeToggle para alternancia de ambos
+            // $('#animar').fadeOut(t).fadeIn(t)
+
+            //slide Up = deslize para cima
+            //slide Down = Deslize para baixo
+            $('#animar').slideUp(t).slideDown(t)
+        })
     </script>
 </body>

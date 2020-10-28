@@ -27,15 +27,47 @@
 
     <script>
         function exibirDadosEvento(e) {
-            4('#resultado').empty()
+            $('#resultado').empty()
             const div1 = $('<div>')
             const div2 = $('<div>')
 
             $('#resultado').append(div1, div2)
             div1.append(`target: ${e.target.id}`)
+
+            //é onde a tag foi feita no caso "body"
+            const rt = e.relatedTarget ? e.relatedTarget.tagName : null 
+            div1.append(`<br>relatedTarget: ${rt}`)
+
+            //é o tipo de evento que está acontecendo, keyup, mouseEnter, mouseLeave etc
+            div1.append(`<br> type: ${e.type}`)
+
+            //which(Qual) = mostra qual o botao ou tecla está sendo pressionado
+            div.append(`<br> which: ${e.which}`)
+
+            //mostra
+            div1.append(`<br> metaKey: ${e.metaKey}`)
+
+            //
+            di1.append(`meta.PageX: ${e.pageX}`)
+
+            //
+            di1.append(`<br>meta.PageY: ${e.pageY}`)
+
+            //
+            di1.append(`<br>meta.clientX: ${e.clientX}`)
+
+            //
+            di1.append(`<br>meta.clientY: ${e.clientY}`)
+            
+
+            const obs = e.data ? e.data.obs : null
+            div2.append(`<br>obs: ${obs}`)
         }
 
-        $('#div1, #div2').on('mouseenter mouseleave', exibirDadosEvento)
+        $('#div1, #div2').on('mouseenter mouseleave', 
+         { obs: 'funciona!'}, exibirDadosEvento)
         $('input').keyup(exibirDadosEvento)
+
+
     </script>
 </body>
