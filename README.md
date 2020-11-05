@@ -1,6 +1,5 @@
 # Cursos--Front-end
 
-Alguns conceitos sobre os tópicos que são abordados nos cursos:
 
 # JavaScript: 
 
