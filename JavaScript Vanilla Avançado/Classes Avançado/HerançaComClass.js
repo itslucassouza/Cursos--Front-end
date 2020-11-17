@@ -31,7 +31,7 @@ class Smartphone extends DispositivoEletronico {
     constructor(nome, cor, modelo) {
         super(nome);
 
-        //atribuindo novos metodos depois de chamas os metodos do constrtuctor pai 
+        //atribuindo novos metodos depois de chamar os metodos do constrtuctor pai 
         this.cor = cor;
         this.modelo = modelo;
     }
