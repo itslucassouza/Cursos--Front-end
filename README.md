@@ -27,7 +27,7 @@ Refinando os conhecimentos em JavaScript "puro".
 
 * JS tooling e ES6 Modules
 
-  babel "can i use" / webpack / import / export / coreJS
+  babel / webpack / import / export / coreJS
 
 # Node.js: 
 
