@@ -1,31 +1,31 @@
 # Cursos--Front-end
 Refinando os conhecimentos em JavaScript "puro".
 
-JS Basico e logica de programação.
+* JS Basico e logica de programação.
 
-Funções Avançado
+* Funções Avançado
 
-escopo lexico / closures / IIFE /funções fabricas / funções constrtutoras / funções recursivas e geradoras
+  escopo lexico / closures / IIFE /funções fabricas / funções constrtutoras / funções recursivas e geradoras
 
-Arrays Avançado 
+* Arrays Avançado 
 
 splice / forEach / filter /map /reduce
 
-Objetos
+* Objetos
 
 defineProperty / properties / getter / setter / prototypes / Herança
 
 polimorfismo / objeto Map
 
-Classes
+* Classes
 
 getter/setter  / herança com classes / instancia/estatic
 
-Assíncrono
+* Assíncrono
 
 Promises / async / Await / XMLHttprequest / fectAPI 
 
-JS tooling e ES6 Modules
+* JS tooling e ES6 Modules
 
 babel "can i use" / webpack / import / export / coreJS
 
