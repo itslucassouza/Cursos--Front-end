@@ -4,9 +4,9 @@ function Produto(nome, preco, estoque) {
         enumerable: true, //mostra a chave
         // value: estoque,    //valor
         // writable: false,    //pode alterar
-        configurable: true //configuravel
+        configurable: true, //configuravel
         get: function() {
-            retorn estoque;
+            return estoque;
         }, 
         set: function(valor) {
             
