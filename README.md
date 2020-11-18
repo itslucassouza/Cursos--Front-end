@@ -1,20 +1,33 @@
 # Cursos--Front-end
-# JavaScript: 
-* Refinando os conhecimentos em JavaScript "puro". *
+Refinando os conhecimentos em JavaScript "puro".
+
 JS Basico e logica de programação.
+
 Funções Avançado
- escopo lexico / closures / IIFE /funções fabricas / funções constrtutoras / funções recursivas e geradoras
+
+escopo lexico / closures / IIFE /funções fabricas / funções constrtutoras / funções recursivas e geradoras
+
 Arrays Avançado 
- splice / forEach / filter /map /reduce
+
+splice / forEach / filter /map /reduce
+
 Objetos
- defineProperty / properties / getter / setter / prototypes / Herança
- polimorfismo / objeto Map
+
+defineProperty / properties / getter / setter / prototypes / Herança
+
+polimorfismo / objeto Map
+
 Classes
- getter/setter  / herança com classes / instancia/estatic
+
+getter/setter  / herança com classes / instancia/estatic
+
 Assíncrono
- Promises / async / Await / XMLHttprequest / fectAPI 
+
+Promises / async / Await / XMLHttprequest / fectAPI 
+
 JS tooling e ES6 Modules
- babel "can i use" / webpack / import / export / coreJS
+
+babel "can i use" / webpack / import / export / coreJS
 
 # Node.js: 
 
