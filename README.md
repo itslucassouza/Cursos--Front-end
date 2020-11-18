@@ -9,25 +9,25 @@ Refinando os conhecimentos em JavaScript "puro".
 
 * Arrays Avançado 
 
-splice / forEach / filter /map /reduce
+  splice / forEach / filter /map /reduce
 
 * Objetos
 
-defineProperty / properties / getter / setter / prototypes / Herança
+  defineProperty / properties / getter / setter / prototypes / Herança
 
-polimorfismo / objeto Map
+  polimorfismo / objeto Map
 
 * Classes
 
-getter/setter  / herança com classes / instancia/estatic
+  getter/setter  / herança com classes / instancia/estatic
 
 * Assíncrono
 
-Promises / async / Await / XMLHttprequest / fectAPI 
+  Promises / async / Await / XMLHttprequest / fectAPI 
 
 * JS tooling e ES6 Modules
 
-babel "can i use" / webpack / import / export / coreJS
+  babel "can i use" / webpack / import / export / coreJS
 
 # Node.js: 
 
