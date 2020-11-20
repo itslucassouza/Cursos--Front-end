@@ -45,15 +45,19 @@ Refinando os conhecimentos em JavaScript "puro" (vanilla).
 # Node.js: 
   Sistema de modulos (import/export, path, dirname, filename) , NPM , FS , express, webpack
 
+# Bootstrap: 
+adicionar navegações / tipografia / espaços / título e bradcrumb / cores / flexbox / imagens / float / 
+sistema de grid / botões / alertas / paginação / tooltip / slider / accordion / formulário.
+
+# SASS 
+
 # Ajax: 
   XMLHttpRequest, Fetch, Axios, Ajax com jQuery e como carregar HTML via Ajax.
 
 # jQuery: 
 selecionando elementos / modificar HTML/ manipular atributos / manipular CSS / eventos / animação / plugins 
 
-# Bootstrap: 
-adicionar navegações / tipografia / espaços / título e bradcrumb / cores / flexbox / imagens / float / 
-sistema de grid / botões / alertas / paginação / tooltip / slider / accordion / formulário.
+
 
 # React: 
 componentes / componentes com parâmetros / múltiplos componentes / componentes de classe / componentes pai e filho.
