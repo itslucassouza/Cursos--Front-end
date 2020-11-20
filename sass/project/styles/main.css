@@ -1,0 +1,143 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+button, [type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+p {
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
+  -webkit-margin-end: 0;
+          margin-inline-end: 0;
+  padding: 0;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, menlo, monaco, consolas, "Courier New", monospace;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: column;
+      -ms-flex: column;
+          flex: column;
+}
+
+@media (max-width: 768px) {
+  section {
+    height: auto;
+    padding: 0;
+  }
+}
+
+section .container {
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  section .container {
+    width: calc(100% - 40px);
+    padding: 80px 0 70px;
+  }
+}
+
+section .container h1 {
+  width: 100%;
+  font-size: 2.4rem;
+  text-align: left;
+  padding: 24px 0;
+  font-weight: weight(regular);
+}
+
+section .container p {
+  line-height: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  section .container p {
+    text-align: justify;
+  }
+}
+
+section .container .actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: row;
+      -ms-flex: row;
+          flex: row;
+  margin-top: 40px;
+}
+
+section .container .actions .btn {
+  margin: 0 auto;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  font-weight: weight(medium);
+}
+
+section .container .actions .btn:hover {
+  color: #fff;
+}
+
+section.javascript {
+  background: #fadb36;
+  color: #000000;
+}
+
+section.react {
+  background: #00c0dc;
+  color: #000000;
+}
+
+section.react .actions .btn:hover {
+  color: #3c3e34;
+}
+
+section.nodeJS {
+  background: #7db741;
+  color: #000000;
+}
+/*# sourceMappingURL=main.css.map */
