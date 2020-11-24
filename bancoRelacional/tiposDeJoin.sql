@@ -1,0 +1,7 @@
+--tipos de joins
+-- inner - apenas dados relacionados 
+--outer (exterior) - tudo que esta fora da relação
+-- left join, traz a tabela A, mais as colunas relacionadas
+-- left outer join, traz a tabela B, mais as colunas relacionadas
+-- right join
+--full join (nao suporta o mySQL)
