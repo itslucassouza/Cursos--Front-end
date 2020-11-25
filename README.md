@@ -9,11 +9,12 @@ herança / box model / margin collapse / propriedade display / altura e largura 
 inline-block / box sizing / overflow / float / unidades / texto / positon / media query /
 flex box / css grid. 
 
-JAvaScript Avançado
+# SASS 
+variaveis, mixins, partials, escopo, condição, repetição, herança e referencia
+
+# JavaScript Avançado
 Refinando os conhecimentos em JavaScript "puro" (vanilla).
-
 * JS Basico e logica de programação.
-
 * Funções Avançado
 
   escopo lexico / closures / IIFE /funções fabricas / funções constrtutoras / funções recursivas e geradoras
@@ -43,21 +44,27 @@ Refinando os conhecimentos em JavaScript "puro" (vanilla).
   refatoração de callbacks para promises/ Async/Await
   
 # Node.js: 
-  Sistema de modulos (import/export, path, dirname, filename) , NPM , FS , express, webpack
+  Sistema de modulos (import/export, path, dirname, filename) /
+  express / webpack / nodemon
+  Padrão MVC (estrutura de pastas)
+  req.params, req.query, req.body
+  NPM / FS /
+  express / webpack / nodemon
+  middlewares 
+  mongoDB
+  
+# Banco Relacional
+mySQL/ SQLServer / CRUD (Create, Read, Update e Delete)
 
 # Bootstrap: 
 adicionar navegações / tipografia / espaços / título e bradcrumb / cores / flexbox / imagens / float / 
 sistema de grid / botões / alertas / paginação / tooltip / slider / accordion / formulário.
-
-# SASS 
 
 # Ajax: 
   XMLHttpRequest, Fetch, Axios, Ajax com jQuery e como carregar HTML via Ajax.
 
 # jQuery: 
 selecionando elementos / modificar HTML/ manipular atributos / manipular CSS / eventos / animação / plugins 
-
-
 
 # React: 
 componentes / componentes com parâmetros / múltiplos componentes / componentes de classe / componentes pai e filho.
