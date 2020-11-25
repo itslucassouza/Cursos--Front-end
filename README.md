@@ -52,7 +52,8 @@ Refinando os conhecimentos em JavaScript "puro" (vanilla).
   express / webpack / nodemon
   middlewares 
   mongoDB
-
+#Banco Relacional
+mySQL/ SQLServer / CRUD (Create, Read, Update e Delete)
 # Bootstrap: 
 adicionar navegações / tipografia / espaços / título e bradcrumb / cores / flexbox / imagens / float / 
 sistema de grid / botões / alertas / paginação / tooltip / slider / accordion / formulário.
