@@ -9,10 +9,10 @@ herança / box model / margin collapse / propriedade display / altura e largura 
 inline-block / box sizing / overflow / float / unidades / texto / positon / media query /
 flex box / css grid. 
 
-#SASS 
-variaveis, mixins, partials, escopo, condição, repetição, hernaça e referencia
+# SASS 
+variaveis, mixins, partials, escopo, condição, repetição, herança e referencia
 
-#JAvaScript Avançado
+# JavaScript Avançado
 Refinando os conhecimentos em JavaScript "puro" (vanilla).
 * JS Basico e logica de programação.
 * Funções Avançado
@@ -52,8 +52,10 @@ Refinando os conhecimentos em JavaScript "puro" (vanilla).
   express / webpack / nodemon
   middlewares 
   mongoDB
-#Banco Relacional
+  
+# Banco Relacional
 mySQL/ SQLServer / CRUD (Create, Read, Update e Delete)
+
 # Bootstrap: 
 adicionar navegações / tipografia / espaços / título e bradcrumb / cores / flexbox / imagens / float / 
 sistema de grid / botões / alertas / paginação / tooltip / slider / accordion / formulário.
