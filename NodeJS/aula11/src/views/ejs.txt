@@ -1,0 +1,5 @@
+<% if, else,etc %>
+<%= apenas mostra oq foi digitado  %=>
+<%- executa oq foi digitado %>
+<%- include('caminho/arquivo'); %>
+<%# comentário %>
