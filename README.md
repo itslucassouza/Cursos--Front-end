@@ -1,9 +1,9 @@
 # Cursos--Front-end
-# HTML5: 
+# HTML5 AVANÇADO:
 Anatomia da tag/ uma página/ as tags propriamente ditas/ texto/ listas/ links/ tabelas/ formulários, 
 imagens/ vídeos e tags não visuais.
 
-# CSS3: 
+# CSS3 AVANÇADO: 
 Anatomia do CSS3 / criação de classes/ seletores CSS3 / especifidades do CSS3 / 
 herança / box model / margin collapse / propriedade display / altura e largura / 
 inline-block / box sizing / overflow / float / unidades / texto / positon / media query /
@@ -12,8 +12,11 @@ flex box / css grid.
 # SASS 
 variaveis, mixins, partials, escopo, condição, repetição, herança e referencia
 
+# Bootstrap: 
+adicionar navegações / tipografia / espaços / título e bradcrumb / cores / flexbox / imagens / float / 
+sistema de grid / botões / alertas / paginação / tooltip / slider / accordion / formulário.
+
 # JavaScript Avançado
-Refinando os conhecimentos em JavaScript "puro" (vanilla).
 * JS Basico e logica de programação.
 * Funções Avançado
 
@@ -43,7 +46,10 @@ Refinando os conhecimentos em JavaScript "puro" (vanilla).
   For Of / Promises/ uso de callbacks aninhadas/ 
   refatoração de callbacks para promises/ Async/Await
   
-# Node.js: 
+#APIRest 
+* Docker, mariaDB, Insomnia, MySQL
+
+# NodeJS Avançado: 
   Sistema de modulos (import/export, path, dirname, filename) /
   express / webpack / nodemon
   Padrão MVC (estrutura de pastas)
@@ -55,10 +61,6 @@ Refinando os conhecimentos em JavaScript "puro" (vanilla).
   
 # Banco Relacional
 mySQL/ SQLServer / CRUD (Create, Read, Update e Delete)
-
-# Bootstrap: 
-adicionar navegações / tipografia / espaços / título e bradcrumb / cores / flexbox / imagens / float / 
-sistema de grid / botões / alertas / paginação / tooltip / slider / accordion / formulário.
 
 # Ajax: 
   XMLHttpRequest, Fetch, Axios, Ajax com jQuery e como carregar HTML via Ajax.
