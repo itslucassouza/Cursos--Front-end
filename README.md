@@ -58,7 +58,14 @@ sistema de grid / botões / alertas / paginação / tooltip / slider / accordion
   express / webpack / nodemon
   middlewares 
   mongoDB
-  
+ 
+ #Expressoes Regulares - Regex
+ quantificadores/ greedy / non-greedy / ranges /^começaCom / $terminaCom
+ 
+#Express 
+middleware / tratamento de requisições / Lendo dados da requisição / body parser
+comunicação entre módulos
+
 # Banco Relacional
 mySQL/ SQLServer / CRUD (Create, Read, Update e Delete)
 
