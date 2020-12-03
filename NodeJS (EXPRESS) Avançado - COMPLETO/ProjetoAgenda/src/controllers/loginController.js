@@ -18,8 +18,8 @@ exports.register = async function(req, res) {
             return;
         }
         req.flash('success', 'usuario criado com sucesso.');
-        req.sessions.save(function () {
-            res.redorect('back');
+        req.session.save(function () {
+            res.redirect('back');
         });
     } catch (e) {
         console.log(e)
