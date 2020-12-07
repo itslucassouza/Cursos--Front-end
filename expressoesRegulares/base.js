@@ -43,12 +43,11 @@ os ips são:
 
 const alfabeto =
 'ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789';
-
-
-const html = '<p>Olá mundo</p> <p> Olá de novo </p> <div> Sou a div </p>'
+const html = '<p>Olá mundo</p> <p> Olá de novo </p> <div> Sou a div </p>';
+const html2 = `<p>Olá mundo </p> <div>Sou a div </div>`;
 
 
 module.exports = {
-    texto, arquivos, html, alfabeto, ips, cpfs
+    texto, arquivos, html, alfabeto, ips, cpfs, html2
 }
     
