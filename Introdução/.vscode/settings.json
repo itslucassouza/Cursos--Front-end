@@ -1,0 +1,5 @@
+{
+    "code-runner.executorMap": {
+        "typescript": "ls && npx ts-node --files --transpile-only" ,    
+    }
+}

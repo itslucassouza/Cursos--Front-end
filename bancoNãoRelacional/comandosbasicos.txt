@@ -1,0 +1,25 @@
+db.stados.find()
+
+db.estados.find().pretty()
+
+db.estados.findOne()
+db.estados.count()
+
+db.estados.aggregate([
+    {$match: {"cidades.nome}}
+])
+
+
+db.insert()
+
+dv.estados.update({sigla: "sp"}, {$set: {populacao: 13000}})
+
+db.estados.remove({sigla: "AC"})
+
+db.estados.aggregate([
+    {$project: {nome: 1, "cidades.nome":1, id: 0} }
+])
+
+
+
+db.estados.count()
