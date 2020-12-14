@@ -1,6 +1,6 @@
 //utilize any apenas em ultimo caso
 
-function showMEssage(msg) {
+function showMEssage(msg: string) {
   return msg;
 }
 
